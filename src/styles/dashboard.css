@@ -9,14 +9,14 @@
     color: white;
 }
 .mi :hover {
-  background-color: black!important; 
+  background-color: #4F78FE!important; 
 }
  .css-z5rm24{
   background-color: transparent!important;
  }
 
 .css-16jesut >.ps-menu-button:hover {
-  background-color:  black!important; 
+  background-color:  #4F78FE!important; 
 }
 
 .header{
@@ -203,13 +203,8 @@
   align-items: center;
   justify-content: center;
 }
-
-.app3{
-
-}
 .titl2{
   border: none;
-
   border-bottom: 2px solid #D8D8D8;
   width: 20vw;
   margin-top: 1vh;
@@ -238,4 +233,60 @@
   background-color: #FFFFFF;
   margin-left: 80%;
   margin-top: 2%;
+}
+
+.item{
+  color:#C5C5C5;
+  margin-top: 2vh;
+  margin-left: 2vw;
+
+
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+ .sidebar-box{
+  display: none;
+ }
+ .body{
+  width:100vw;
+ }
+ .Headerbox{
+  width: 18vw;
+ }
+ .tab{
+  width: 15vw;
+ }
+ .application{
+  width: 80vw;
+ }
+ .objective{
+  width: 80vw;
+ }
+ .content{
+  width: 80vw;
+ }
+ .PartA{
+  width: 90vw;
+ }
+ .box{
+  width:80vw!important;
+ }
+
+}
+.box{
+  width: 55vw;
+  margin-top: 5vh;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  height: 8vh;
+  border-radius: 25px;
+  border: 2px solid #D8D8D8;
+  color:#C5C5C5;
+  padding: 2vw;
+  padding-top: 2vh;
+ 
+}
+.boxadd{
+  float: right;
 }

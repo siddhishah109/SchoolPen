@@ -19,7 +19,7 @@ photo
       </div>
       <button className='Addapp'>Add</button>
       </div>
-      <div className='item'>add item</div>
+      <div className='item'>Add item</div>
     </div>
   )
 }

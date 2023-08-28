@@ -1,6 +1,6 @@
-import React from 'react'
+import React ,{useState} from 'react'
 import NotificationsRoundedIcon from "@mui/icons-material/NotificationsRounded";
-import {  Menu, MenuItem, SubMenu } from "react-pro-sidebar";
+import {  Menu, MenuItem, SubMenu} from "react-pro-sidebar";
 import DashboardIcon from '@mui/icons-material/Dashboard';
 import SchoolIcon from '@mui/icons-material/School';
 import PeopleAltIcon from '@mui/icons-material/PeopleAlt';
@@ -22,12 +22,14 @@ import sidebarBg from '../assets/side-bar.png'
 const SideBar = () => {
 
   return (
+    <>
     <div className='sidebar-box'>
-      <h1 className='header' >
+     <div className='menu-container'>
+     <h1 className='header' >
       <div className="logo">
         <img src={logo} alt="Logo" />
       </div>School Pen</h1>
-      <Menu  className='custom-menu'>
+      <Menu className='custom-menu'>
         <MenuItem className='mi' icon={<DashboardIcon />}> Dashboard </MenuItem>
         <SubMenu className='smi' label="School management" icon={<SchoolIcon />}>
           <MenuItem  className='mi' icon={<PeopleAltIcon />}> Students </MenuItem>
@@ -51,13 +53,13 @@ const SideBar = () => {
           <MenuItem  className='mi' icon={<ChatBubbleIcon />}> Chat </MenuItem>
           <MenuItem  className='mi' icon={<NotificationsRoundedIcon />}>
             Notifications
-          </MenuItem>
-    
-        
+          </MenuItem> 
       </Menu>
       <div className='sizebox'></div>
    <img src={sidebarBg} alt="sidebarBg" className='sidebar-bg' />
+     </div>
     </div>
+    </>
   )
 }
 

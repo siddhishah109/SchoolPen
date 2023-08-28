@@ -1,5 +1,6 @@
 import React from 'react'
 import Application from './application'
+import Box from './box';
 
 const PartA = () => {
   return (
@@ -13,6 +14,11 @@ const PartA = () => {
     <div className='content'><input type="text" name="Content" className='tarea' placeholder='Content' />
     </div>
     <Application/>
+    <Box title='Relevence to Subject'/>
+    <Box title='Skill gained'/>
+    <Box title='Events'/>
+    <Box title='Problem'/>
+    <Box title='Career Path'/>
     </div>
   )
 }
