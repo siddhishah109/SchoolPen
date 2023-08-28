@@ -4,7 +4,7 @@ import Body from '../components/body'
 
 const Admin = () => {
   return (
-    <div>
+    <div className='d-flex'>
       <SideBar/>
       admin
       <Body/>
