@@ -103,10 +103,139 @@
   position: relative;
 }
 
-
+/* --------------------------------------------------------------------------------------------------------------------- */
 .PartA{
   border: 2px solid #D8D8D8;
   border-radius: 25px;
   margin-top: 5vh;
-  height: 40vh;
+  height: 190vh;
+
+}
+
+.title{
+  border: none;
+
+  border-bottom: 2px solid #D8D8D8;
+  width: 55vw;
+  margin-top: 5vh;
+  margin-left: 5vw;
+  margin-right: 5vw;
+
+}
+
+.title::placeholder{
+  color:#C5C5C5;
+}
+
+.objective{
+  width: 55vw;
+  margin-top: 5vh;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  height: 25vh;
+  border-radius: 25px;
+  border: 2px solid #D8D8D8;
+  padding-top: 2%;
+  padding-left: 20px;
+}
+.title:focus-visible{
+  outline: none;
+}
+.tarea{
+  border: none;
+  width: 100%;
+}
+.tarea:focus-visible{
+  outline: none;
+}
+.tarea::placeholder{
+  color:#C5C5C5;
+}
+
+.content{
+  width: 55vw;
+  margin-top: 5vh;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  height: 25vh;
+  border-radius: 25px;
+  border: 2px solid #D8D8D8;
+  padding-top: 2%;
+  padding-left: 20px;
+}
+
+.application{
+  display: flex;
+  flex-direction: row;
+}
+
+.application{
+  width: 55vw;
+  margin-top: 5vh;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  height: 35vh;
+  border-radius: 25px;
+  border: 2px solid #D8D8D8;
+
+}
+.app{
+  width: 60%;
+  padding-left: 2%;
+  color: #C5C5C5;
+  padding-top: 2%;
+}
+
+.app1{
+  display: flex;
+  flex-direction: row;
+  padding-top: 2%;
+  border-right:2px solid  #C5C5C5;
+
+}
+
+.app2{
+  width: 25%;
+  border-radius: 25px;
+  height: 17vh;
+  background-color: #EAEAEA;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app3{
+
+}
+.titl2{
+  border: none;
+
+  border-bottom: 2px solid #D8D8D8;
+  width: 20vw;
+  margin-top: 1vh;
+  margin-left: 2vw;
+}
+
+.titl2::placeholder{
+  color:#C5C5C5;
+}
+.titl2:focus-visible{
+  outline: none;
+}
+.con2{
+  border: 2px solid  #D8D8D8;
+  border-radius: 20px;
+  margin-top: 2vh;
+  margin-left: 2vw;
+  padding: 2%;
+  height: 10vh;
+}
+
+.Addapp{
+  color: #4F78FE;
+  border: 2px solid #4F78FE;
+  border-radius:25px;
+  background-color: #FFFFFF;
+  margin-left: 80%;
+  margin-top: 2%;
 }
