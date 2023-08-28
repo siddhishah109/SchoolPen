@@ -6,7 +6,6 @@ const Admin = () => {
   return (
     <div className='d-flex'>
       <SideBar/>
-      admin
       <Body/>
     </div>
   )

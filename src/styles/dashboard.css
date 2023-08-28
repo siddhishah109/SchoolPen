@@ -1,12 +1,13 @@
+
+/* side bar start */
+
+
 .sidebar-box{
     width: 22vw;
     height : 200vh;
     background: linear-gradient(to bottom,#9766d0,#7253f6);
     color: white;
 }
-
-
-
 .mi :hover {
   background-color: black!important; 
 }
@@ -29,4 +30,83 @@
 .sizebox{
 
   height: 20vh;
+}
+
+/* side bar over */
+/* --------------------------------------------------- */
+
+/* body start */
+
+.body{
+  /* border: 2px solid black; */
+  width: 70vw;
+  margin-left: 5vw;
+  margin-right: 8vw;
+  margin-top: 10vh;
+}
+
+.Header{
+  /* border: 2px solid black; */
+  height: 7vh;
+  display:flex;
+  justify-content:space-between;
+}
+
+.Headerbox{
+  border: 2px solid #C0C0C0;
+  width: 12vw;
+  height: 6vh;
+  border-radius: 25px;
+  align-items: center;
+  color: #707070;
+  display: flex;
+  font-size: small;
+  justify-content: center;
+}
+
+.dayline{
+  height: 5vh;
+
+  border: 2px solid #4F78FE;
+  border-radius: 25px;
+  margin-top: 15px;
+}
+.hidden {
+  display: none;
+}
+
+.tab-list{
+  display: flex;
+  align-items: center;
+ 
+ 
+}
+.tab{
+  font-size: smaller;
+    color: #4F78FE;
+    text-align: center;
+    height: 5vh;
+    display: flex;
+    width: 5vw;
+    align-items: center;
+    margin-top: -2px;
+    justify-content: center;
+
+}
+.active{
+  background-color: #4F78FE;
+  color: #FFFFFF;
+  border-radius: 25px;
+}
+.add{
+  color:#4F78FE ;
+  position: relative;
+}
+
+
+.PartA{
+  border: 2px solid #D8D8D8;
+  border-radius: 25px;
+  margin-top: 5vh;
+  height: 40vh;
 }
