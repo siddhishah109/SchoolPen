@@ -6,6 +6,7 @@ const Admin = () => {
   return (
     <div>
       <SideBar/>
+      admin
       <Body/>
     </div>
   )
